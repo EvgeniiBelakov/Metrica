@@ -1,0 +1,71 @@
+main {
+    font-family: 'Manrope', Courier, monospace;
+    background-color: white;
+    color: #121212;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 1400px;
+    padding: 125px;   
+}
+
+h1 {
+    width: 956px;
+    height: 120px;
+    margin-bottom: 30px;
+
+    font-size:60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;           
+}    
+
+.interior {
+    padding-top: 379px;
+    padding-left: 40px;
+    height: 500px; 
+    width: 1150px; 
+    background-image: url(../resourses/restangle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.text {
+    width: 430px;
+    font-size:20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    color: white;
+} 
+
+.infomation {
+    margin: 150px 99px 0 0;
+    width: 1051px;
+    height: 518px;
+}   
+
+h2 {
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;  
+    margin-bottom: 30px;
+}
+
+.info {
+    font-size: 45px;
+    line-height: 61.47px;
+    letter-spacing: -0.03em;
+    margin-bottom: 30px;
+}
+
+.services {
+    display: block;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    background-color: #AD1818;
+    width: 255px;
+    height: 67px;
+    text-align: center;
+    color: white;
+    line-height: 67px;
+    font-size:20px;
+    letter-spacing: -0.03em;
+}
