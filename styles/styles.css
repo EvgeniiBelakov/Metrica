@@ -1,3 +1,6 @@
+body {
+    background-color: #cccaca;
+}
 main {
     font-family: 'Manrope', Courier, monospace;
     background-color: white;
@@ -84,20 +87,20 @@ h2 {
 
 }
 
-.progects__1 {
+.progect {
     height: 548px;
     margin-bottom: 100px;
 }
 
-.progects__1_image {
+.progect_image {
     width: 1150px;
     height: 450px;
     margin-bottom: 15px;
 
 }
 
-.progects__1_name {
-    width: 501px;
+.progect_name {
+    width: 542px;
     height: 41px;
     margin-bottom: 15px;
     font-size: 30px;
@@ -106,7 +109,7 @@ h2 {
     
 }
 
-.progects__1_btn {
+.progect_link {
     width: 127px;
     height: 27px;
     background-color: white;
@@ -116,3 +119,19 @@ h2 {
     letter-spacing: -0.03em; 
     color: #AD1818;
 } 
+
+.progects_btn { 
+    width: 100%;
+    height: 153px;
+    border: 1px solid red;
+    border-radius: 5px;
+
+    font-size: 30px;
+    line-height: 40.98px;
+    letter-spacing: -0.03em; 
+    color: #AD1818;
+}
+.progects_btn:hover {
+    background-color: #AD1818;
+    color: white;
+}
