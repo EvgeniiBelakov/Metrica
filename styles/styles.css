@@ -5,23 +5,22 @@ body {
 main {
     font-family: 'Manrope', Courier, monospace;
     font-weight: 400;
+    letter-spacing: -0.07em; 
 }
 
-.container {
+section {
     background-color: white;
     margin: 0 auto;
     width: 1400px;
-    padding: 125px;  
+    padding: 125px;
 }
 
 h1 {
     width: 956px;
     height: 120px;
     margin-bottom: 30px;
-
     font-size:60px;
-    line-height: 60px;  
-    letter-spacing: -0.03em;        
+    line-height: 60px;        
 }    
 
 .interior {
@@ -40,7 +39,6 @@ h1 {
     width: 430px;
     font-size:20px;
     line-height: 27.32px;
-    letter-spacing: -0.03em;
     color: white;
 } 
 
@@ -53,14 +51,12 @@ h1 {
 h2 {
     font-size: 18px;
     line-height: 24.59px;
-    letter-spacing: -0.03em;
     margin-bottom: 30px;
 }
 
 .info {
     font-size: 45px;
     line-height: 61.47px;
-    letter-spacing: -0.03em;
     margin-bottom: 30px;
 }
 
@@ -75,7 +71,6 @@ h2 {
     color: white;
     line-height: 67px;
     font-size:20px;
-    letter-spacing: -0.03em;
 }
 
 .progects {
@@ -87,9 +82,7 @@ h2 {
 .progects__name { 
     font-size: 18px;
     line-height: 24.59px;
-    letter-spacing: -0.03em;
     margin-bottom: 30px;
-
 }
 
 .progect {
@@ -101,7 +94,6 @@ h2 {
     width: 1150px;
     height: 450px;
     margin-bottom: 15px;
-
 }
 
 .progect_name {
@@ -110,7 +102,6 @@ h2 {
     margin-bottom: 15px;
     font-size: 30px;
     line-height: 40.98px;
-    letter-spacing: -0.03em;
 }
 
 .progect_link {
@@ -120,7 +111,6 @@ h2 {
     border: none;
     font-size: 20px;
     line-height: 27.32px;
-    letter-spacing: -0.03em;
     color: #AD1818;
 } 
 
@@ -129,10 +119,8 @@ h2 {
     height: 153px;
     border: 1px solid red;
     border-radius: 5px;
-
     font-size: 30px;
     line-height: 40.98px;
-    letter-spacing: -0.03em;
     color: #AD1818;
 }
 .progects_btn:hover {
@@ -140,11 +128,8 @@ h2 {
     color: white;
 }
 
-.services {
-    margin: 0 auto;
-    padding: 150px 125px 150px 125px;
+.jobes {
     width: 1400px;
-    height: 1844px;
     background-color: black;
     color: white;
 }
@@ -152,6 +137,7 @@ h2 {
 .services_Name {
     margin-bottom: 50px;
 }
+
 .jobe {
     height: 326px;
     margin-bottom: 50px;
@@ -168,5 +154,4 @@ h2 {
     height: 41px;
     font-size: 30px;
     line-height: 40.98px;
-    letter-spacing: -0.03em;
 }
