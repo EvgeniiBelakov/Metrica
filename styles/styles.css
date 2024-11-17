@@ -1,18 +1,20 @@
 body {
-    background-color: #cccaca;
+    background-color: rgb(167, 167, 165);
 }
-
 main {
     font-family: 'Manrope', Courier, monospace;
     font-weight: 400;
-    letter-spacing: -0.07em; 
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 section {
     background-color: white;
-    margin: 0 auto;
-    width: 1400px;
-    padding: 125px;
+    padding: 150px 125px 0px 125px;
+   
 }
 
 h1 {
@@ -20,7 +22,8 @@ h1 {
     height: 120px;
     margin-bottom: 30px;
     font-size:60px;
-    line-height: 60px;        
+    line-height: 60px;  
+    letter-spacing: -0.03em;       
 }    
 
 .interior {
@@ -39,11 +42,11 @@ h1 {
     width: 430px;
     font-size:20px;
     line-height: 27.32px;
+    letter-spacing: -0.03em; 
     color: white;
 } 
 
 .infomation {
-    margin: 150px 99px 0 0;
     width: 1051px;
     height: 518px;
 }   
@@ -51,12 +54,14 @@ h1 {
 h2 {
     font-size: 18px;
     line-height: 24.59px;
+    letter-spacing: -0.03em; 
     margin-bottom: 30px;
 }
 
 .info {
     font-size: 45px;
     line-height: 61.47px;
+    letter-spacing: -0.03em; 
     margin-bottom: 30px;
 }
 
@@ -71,17 +76,13 @@ h2 {
     color: white;
     line-height: 67px;
     font-size:20px;
-}
-
-.progects {
-    width: 1150px;
-    height: 2200px;
-    margin-top: 150px;
+    letter-spacing: -0.03em; 
 }
 
 .progects__name { 
     font-size: 18px;
     line-height: 24.59px;
+    letter-spacing: -0.03em; 
     margin-bottom: 30px;
 }
 
@@ -102,6 +103,7 @@ h2 {
     margin-bottom: 15px;
     font-size: 30px;
     line-height: 40.98px;
+    letter-spacing: -0.03em; 
 }
 
 .progect_link {
@@ -111,6 +113,7 @@ h2 {
     border: none;
     font-size: 20px;
     line-height: 27.32px;
+    letter-spacing: -0.03em; 
     color: #AD1818;
 } 
 
@@ -121,6 +124,7 @@ h2 {
     border-radius: 5px;
     font-size: 30px;
     line-height: 40.98px;
+    letter-spacing: -0.03em; 
     color: #AD1818;
 }
 .progects_btn:hover {
@@ -128,13 +132,18 @@ h2 {
     color: white;
 }
 
-.jobes {
-    width: 1400px;
+.progects_btn:last-child {
+    margin-bottom: 150px;
+}
+
+.jobes_first {
+    max-width: 1400px;
+    padding: 150px 125px 0px 125px;
     background-color: black;
     color: white;
 }
 
-.services_Name {
+.jobes_input {
     margin-bottom: 50px;
 }
 
@@ -154,4 +163,9 @@ h2 {
     height: 41px;
     font-size: 30px;
     line-height: 40.98px;
+    letter-spacing: -0.03em; 
+}
+
+.jobe_name :last-child {
+    padding-bottom: 150px;
 }
