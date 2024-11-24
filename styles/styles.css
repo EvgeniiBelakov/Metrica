@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(167, 167, 165);
 }
@@ -11,10 +15,52 @@ main {
     margin: 0 auto;
 }
 
+.nav_section {
+    margin: 0 auto;
+    padding-top: 31px;
+}
+
+.logo {
+    width: 1151.36px;
+    height: 25.18px;
+   
+}
+
+.logo_link {
+    display: inline-block;
+    width: 126.89px;
+    height: 21.42px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav_link {
+    display: inline-block;
+    height: 25px;
+    text-decoration: none;
+    padding-left: 58px;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: black;
+}
+
+.nav_link:hover {
+    text-decoration: underline;
+    color: rgb(116, 114, 119);
+}
+
+.first_section {
+    background-color: white;
+    padding: 66px 125px 0px 125px;  
+}
+
 section {
     background-color: white;
-    padding: 150px 125px 0px 125px;
-   
+    padding: 150px 125px 5px 125px;  
 }
 
 h1 {
@@ -41,7 +87,7 @@ h1 {
     bottom: 40px;
     width: 430px;
     font-size:20px;
-    line-height: 27.32px;
+    line-height: 26.32px;
     letter-spacing: -0.03em; 
     color: white;
 } 
@@ -67,7 +113,6 @@ h2 {
 
 .service {
     display: block;
-    border: 1px solid #AD1818;
     border-radius: 5px;
     background-color: #AD1818;
     width: 255px;
@@ -77,30 +122,30 @@ h2 {
     line-height: 67px;
     font-size:20px;
     letter-spacing: -0.03em; 
-}
+  }
 
 .progects__name { 
     font-size: 18px;
-    line-height: 24.59px;
+    line-height: 18.59px;
     letter-spacing: -0.03em; 
     margin-bottom: 30px;
 }
 
 .progect {
     height: 548px;
-    margin-bottom: 100px;
+    margin-bottom: 91px;
 }
 
 .progect_image {
     width: 1150px;
-    height: 450px;
-    margin-bottom: 15px;
+    height: 453px;
+    margin-bottom: 14px;
 }
 
 .progect_name {
     width: 542px;
     height: 41px;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     font-size: 30px;
     line-height: 40.98px;
     letter-spacing: -0.03em; 
@@ -138,34 +183,144 @@ h2 {
 
 .jobes_first {
     max-width: 1400px;
-    padding: 150px 125px 0px 125px;
+    height: 1838px;
+    padding: 146px 125px 100px 125px;
     background-color: black;
     color: white;
 }
 
 .jobes_input {
-    margin-bottom: 50px;
+    margin-bottom: 38px;
 }
 
 .jobe {
     height: 326px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .jobe_image {
     width: 1150px;
-    height: 270px;
-    margin-bottom: 15px;
+    height: 269px;
+    margin-bottom: 22px;
 }
 
 .jobe_name {
     width: 800px;
     height: 41px;
     font-size: 30px;
-    line-height: 40.98px;
-    letter-spacing: -0.03em; 
+    line-height: 24.98px;
+    letter-spacing: -0.026em; 
 }
 
-.jobe_name :last-child {
-    padding-bottom: 150px;
+
+
+.forest {
+    position: relative;
+    height: 717px;
+    background-image: url(../resourses/Ractangle_forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: 50%;
+}
+
+.forest_room {
+    position:absolute;
+    left: 125px;
+    bottom: 60px;
+    width: 443px;
+    height: 82px;
+    font-size: 30px;
+    line-height: 40.98px;
+    letter-spacing: -0.03em; 
+    color: white;
+}
+
+.contacts {
+    position: relative;
+    height: 400px;
+}
+
+.contacts:before {
+    position: absolute;
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 24px;
+    height: 24px;
+    background-image: url(../resourses/Vector.png);
+    background-repeat: no-repeat;
+    background-size: contain;     
+}
+
+.contact {
+    display: block;
+    padding: 34px 0px 30px 0px;
+    width: 90px;
+    height: 25px;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+}
+
+.phone {
+    margin-bottom: 30px;
+}
+
+.phone_link, .mail_link {
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: black;
+}
+
+.mail_link:hover {
+    text-decoration: underline;
+    color: rgb(116, 114, 119);
+}
+
+.nav_section_end {
+    max-width: 1400px;
+    padding: 58px 150px 30px 125px;
+    background-color: black;
+    color: white;
+}
+.nav_end {
+    margin: 0 auto;
+    width: 480px;
+    height: 25px;
+}
+
+.nav_link_end {
+    display: inline-block;
+    width: 87px;
+    height: 25px;
+    margin-right: 37px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: white;
+}
+
+.nav_link_end:hover {
+    text-decoration: underline;
+    color: rgb(116, 114, 119);
+}
+
+.nav_link_end:nth-last-child(1) {
+    margin: 0;
+}
+
+.name_end {
+    margin: 0 auto;
+    margin-top: 86px;
+    width: 389px;
+    height: 27px;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    color: #a4a3a3;
+    text-align: center;
 }

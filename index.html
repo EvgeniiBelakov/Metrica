@@ -13,20 +13,31 @@
 <body>
     <main>
         <div class="container">
-            <section>
+            <section class="nav_section">
+                <div class="logo">
+                    <a class='logo_link' href="/"><img src="resourses/logo.png" alt=""></a>    
+                    <div class="nav">
+                        <a class="nav_link" href="#infomations">О НАС</a>
+                        <a class="nav_link" href="#progects">ПРОЕКТЫ</a>
+                        <a class="nav_link" href="#jobes">УСЛУГИ</a>
+                        <a class="nav_link" href="#contacts">КОНТАКТЫ</a>
+                    </div>
+                </div>
+            </section>
+            <section class="first_section">
                 <h1>Современные и стильные интерьеры для комфортной жизни</h1> 
                 <div class="interior">
                     <p class="text">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов</p>
                 </div>
             </section>
-            <section>      
+            <section id="infomations" class="infomations">      
                 <div class="infomation">
                     <h2>О НАС</h2>
                     <p class="info">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>     
-                    <a class="service" href="/">Посмотреть услуги</a>
+                    <a class="service" href="#jobes">Посмотреть услуги</a>
                 </div>  
             </section>
-            <section>
+            <section id="progects" class="progects_first">
                 <ul class="progects">
                     <p class="progects__name">ПРОЕКТЫ</p>
                     <li class="progect">
@@ -47,7 +58,7 @@
                     <button class="progects_btn">Смотреть все проекты</button>    
                 </ul> 
             </section>  
-            <section class="jobes_first">
+            <section id="jobes" class="jobes_first">
                 <ul class="jobes">
                     <p class="jobes_input">УСЛУГИ</p>
                     <li class="jobe">
@@ -67,7 +78,30 @@
                         <p class="jobe_name">Комплектация — 5% от стоимости спецификации</p>
                     </li>
                 </ul> 
-            </section>  
+            </section> 
+            <section class="forest">
+                <h3 class="forest_room">Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж</h3>
+            </section> 
+            <section id="contacts" class="contact_section">
+                <div class="contacts">
+                    <h2 class="contact">КОНТАКТЫ</h2>
+                    <p class="phone">
+                        <a class="phone_link" href="tel:+79358954535">+7 935 895-45-35</a>
+                    </p>
+                    <p class="mail">
+                        <a class="mail_link" href="mailto:hello@mail.com">hello@mail.com</a>
+                    </p>
+                </div>
+            </section>
+            <section class="nav_section_end">
+                <div class="nav_end">
+                    <a class="nav_link_end" href="#infomations">О НАС</a>
+                    <a class="nav_link_end" href="#progects">ПРОЕКТЫ</a>
+                    <a class="nav_link_end" href="#jobes">УСЛУГИ</a>
+                    <a class="nav_link_end" href="#contacts">КОНТАКТЫ</a>
+                </div>
+                <p class="name_end">студия дизайна интерьера Метрика — 2023</p>
+            </section>
         </div>
     </main>  
 </body>
