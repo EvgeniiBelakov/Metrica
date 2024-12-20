@@ -2,9 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: rgb(167, 167, 165);
-}
 main {
     font-family: 'Manrope', Courier, monospace;
     font-weight: 400;
@@ -15,7 +12,7 @@ main {
     margin: 0 auto;
 }
 
-
+/*
 .nav_section {
     margin: 0 auto;
     padding-top: 31px;
@@ -53,7 +50,7 @@ main {
     text-decoration: underline;
     color: rgb(116, 114, 119);
 }
-
+*/
 .first_section {
     background-color: white;
     padding: 66px 125px 0px 125px;  
@@ -76,10 +73,10 @@ h1 {
 .interior {
     position: relative;
     height: 500px; 
-    width: 1150px; 
+    max-width: 1150px; 
     background-image: url(../resourses/restangle.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .text {
@@ -124,6 +121,7 @@ h2 {
     font-size:20px;
     letter-spacing: -0.03em; 
   }
+
 
 .progects__name { 
     font-size: 18px;
@@ -181,7 +179,7 @@ h2 {
 .progects_btn:last-child {
     margin-bottom: 150px;
 }
-
+/*
 .jobes_first {
     max-width: 1400px;
     height: 1838px;
@@ -212,8 +210,6 @@ h2 {
     line-height: 24.98px;
     letter-spacing: -0.026em; 
 }
-
-
 
 .forest {
     position: relative;
@@ -324,4 +320,248 @@ h2 {
     letter-spacing: -0.03em;
     color: #a4a3a3;
     text-align: center;
+}
+*/
+
+@media (max-width: 1199px) {
+    .container{
+        width: 100%;
+        padding-left: 17px;
+        padding-right: 15px;
+    }
+    .first_section {
+        width: 100%;
+        padding: 0 17px 0px 15px;  
+    }
+
+    .infomations {
+        padding: 120px 17px 0px 15px; 
+    }
+
+    h1 {
+        max-width: 802px;
+        height: 120px;
+        font-size: 50px;
+        line-height: 60px;   
+    }    
+    
+    .interior {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .text {
+        bottom: 30px;
+    }
+
+    .infomation {
+        max-width: 693px;
+        height: 488px;
+    }   
+    
+    .info {
+        max-width: 690px;
+        height: 336px;
+        font-size: 35px;
+        line-height: 47.81px;   
+    }
+
+    
+
+section {
+    background-color: white;
+    padding: 0 15px 0px 17px;  
+}
+
+.progects_first {
+    margin-top: 120px;
+}
+
+.progects__name { 
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em; 
+    margin-bottom: 30px;
+}
+
+.progect {
+    height: 536px;
+    margin-bottom: 80px;
+}
+
+.progect_image {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 15px;
+}
+
+.progect_name {
+    width: 100%;
+    height: 34px;
+    margin-bottom: 11px;
+    font-size: 25px;
+    line-height: 34.15px;
+    letter-spacing: -0.03em; 
+}
+
+.progect_link {
+    max-width: 127px;
+    height: 27px;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em; 
+    color: #AD1818;
+} 
+
+.progects_btn { 
+    width: 100%;
+    height: 153px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 30px;
+    line-height: 40.98px;
+    letter-spacing: -0.03em; 
+    color: #AD1818;
+}
+.progects_btn:hover {
+    background-color: #AD1818;
+    color: white;
+}
+
+.progects_btn:last-child {
+    margin-bottom: 103px;
+}
+}
+
+
+@media (max-width: 767px) {
+
+    .container{
+        width: 100%;
+        padding-left: 13px;
+        padding-right: 12px;
+    }
+    .first_section {
+        width: 100%;
+        padding: 0 13px 0px 12px;  
+    }
+
+    .infomations {
+        padding: 80px 13px 0px 12px; 
+    }
+    h1 {
+        margin-bottom: 25px;
+        max-width: 348px;
+        height: 95px;
+        font-size: 30px;
+        line-height: 31.62px;   
+    }    
+    
+    .interior {
+        width: 100%;
+        height: 304px; 
+        background-position: 40%;
+    }
+    
+    .text {
+        max-width: 312px;
+        height: 88px;
+        left: 15px;
+        bottom: 15px;
+        font-size: 16px;
+        line-height: 21.86px;
+    }
+
+    .infomation {
+        max-width: 346px;
+        height: 420px;
+    }   
+    
+    h2 {
+        font-size: 14px;
+        line-height: 19.12px;
+        margin-bottom: 20px;
+    }
+
+    .info {
+        width: 100%;
+        height: 300px;
+        font-size: 22px;
+        line-height: 30.05px;   
+    }
+
+    .service {
+        max-width: 194px;
+        height: 51px;
+        font-size:16px;
+        line-height: 53px;
+    }
+
+
+    section {
+        background-color: white;
+        padding: 0 13px 0px 12px;  
+    }
+
+    .progects_first {
+        margin-top: 80px;
+    }
+.progects__name { 
+    font-size: 14px;
+    line-height: 19.12px;
+    letter-spacing: -0.03em; 
+    margin-bottom: 20px;
+}
+
+.progect {
+    height: 328px;
+    margin-bottom: 49px;
+}
+
+.progect_image {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.progect_name {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 11px;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em; 
+}
+
+.progect_link {
+    max-width: 101px;
+    height: 22px;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    line-height: 21.86px;
+    letter-spacing: -0.03em; 
+    color: #AD1818;
+} 
+
+.progects_btn { 
+    width: 100%;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 3.8px;
+    font-size: 22px;
+    line-height: 30.05px;
+    letter-spacing: -0.03em; 
+    color: #AD1818;
+}
+.progects_btn:hover {
+    background-color: #AD1818;
+    color: white;
+}
+
+.progects_btn:last-child {
+    margin-bottom: 144px;
+}
 }
