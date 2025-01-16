@@ -1,0 +1,38 @@
+.nav_section {
+    margin: 0 auto;
+    padding-top: 31px;
+}
+
+.logo {
+    width: 1151.36px;
+    height: 25.18px;
+   
+}
+
+.logo_link {
+    display: inline-block;
+    width: 126.89px;
+    height: 21.42px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav_link {
+    display: inline-block;
+    height: 25px;
+    text-decoration: none;
+    padding-left: 58px;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: black;
+}
+
+.nav_link:hover {
+    text-decoration: underline;
+    color: rgb(116, 114, 119);
+}
+

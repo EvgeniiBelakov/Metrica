@@ -1,0 +1,46 @@
+.nav_section_end {
+    max-width: 1400px;
+    padding: 58px 150px 30px 125px;
+    background-color: black;
+    color: white;
+}
+.nav_end {
+    margin: 0 auto;
+    width: 480px;
+    height: 25px;
+}
+
+.nav_link_end {
+    display: inline-block;
+    width: 87px;
+    height: 25px;
+    margin-right: 37px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: white;
+}
+
+.nav_link_end:hover {
+    text-decoration: underline;
+    color: rgb(116, 114, 119);
+}
+
+.nav_link_end:nth-last-child(1) {
+    margin: 0;
+}
+
+.name_end {
+    margin: 0 auto;
+    margin-top: 86px;
+    width: 389px;
+    height: 27px;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    color: #a4a3a3;
+    text-align: center;
+}
+
